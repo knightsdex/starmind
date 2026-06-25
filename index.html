@@ -273,6 +273,8 @@
         transition: all 0.2s;
         white-space: nowrap;
         text-transform: uppercase;
+        text-decoration: none;
+        display: inline-block;
       }
 
       .copy-btn:hover {
@@ -442,9 +444,9 @@
           <span class="contract-address" id="contractAddr"
             >0xd54d49292594a4194d562c8b01da4b6b09814075</span
           >
-          <button class="copy-btn" id="copyBtn" onclick="copyContract()">
-            Copy
-          </button>
+          <a class="copy-btn" href="https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0xd54d49292594a4194d562c8b01da4b6b09814075" target="_blank" rel="noopener">
+            BUY $STARMIND
+          </a>
         </div>
       </div>
 
